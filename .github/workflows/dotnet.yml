@@ -1,0 +1,15 @@
+name: dotnet
+on:
+ push:
+  branches:
+  - main
+  - master
+  
+jobs:
+ build:
+  runs-on: ubuntu-latest
+  
+  steps:
+  - name: first step
+      echo "st line"
+      echo "2nd line"
