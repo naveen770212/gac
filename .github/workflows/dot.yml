@@ -12,5 +12,9 @@ jobs:
   steps:
   - name: first step
     run: |
-      echo "st line"
-      echo "2nd line"
+      echo "jan"
+      echo "feb"
+      echo "march"
+
+  - name: second step 
+  - name: third step
