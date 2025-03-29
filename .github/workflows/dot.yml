@@ -17,7 +17,7 @@ jobs:
       echo "march"
 
   - name: execute some shell cmds
-    run:
+    run: |
      pwd
      mdir abc
      cd abc
