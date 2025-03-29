@@ -1,9 +1,9 @@
 name: expert
 on:
  push:
-  branches:
-  - main
-  - master
+  # branches:
+  # - main
+  # - master
 jobs:
  build:
   runs-on: ubuntu-latest
