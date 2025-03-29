@@ -19,13 +19,14 @@ jobs:
   - name: execute some shell cmds
     run: |
      pwd
-     mdir abc
+     mkdir abc
      cd abc
      touch brave
      chmod 777 brave
      cat >> I can 
      cat bravhe
      ls -lart
+     pwd
 
   # - name: second step 
   # - name: third step
