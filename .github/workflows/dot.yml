@@ -1,4 +1,4 @@
-name: dotnet
+name: dot
 on:
  push:
   branches:
