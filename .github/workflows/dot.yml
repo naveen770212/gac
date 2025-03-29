@@ -11,5 +11,6 @@ jobs:
   
   steps:
   - name: first step
+    run: |
       echo "st line"
       echo "2nd line"
