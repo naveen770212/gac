@@ -23,8 +23,7 @@ jobs:
      cd abc
      touch brave
      chmod 777 brave
-     cat >> I can 
-     cat bravhe
+     cat brave
      ls -lart
      pwd
 
