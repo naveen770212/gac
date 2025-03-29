@@ -19,11 +19,13 @@ jobs:
   - name: execute some shell cmds
     run: |
      pwd
+     echo " $pwd"
      mkdir abc
      cd abc
+     echo " created dir $pwd"
      touch brave
      chmod 777 brave
-     ls -lart
+     echo " created the file $ls "
      pwd
 
   # - name: second step 
