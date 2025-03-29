@@ -16,5 +16,16 @@ jobs:
       echo "feb"
       echo "march"
 
+  - name: execute some shell cmds
+    run:
+     pwd
+     mdir abc
+     cd abc
+     touch brave
+     chmod 777 brave
+     cat >> I can 
+     cat bravhe
+     ls -lart
+
   # - name: second step 
   # - name: third step
